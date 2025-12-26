@@ -1,0 +1,45 @@
+# pubspec.yaml
+name: dark_age
+description: Um aplicativo de rolagem de dados e gerenciamento de fichas para o RPG Dark Age.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.2.2
+  fluttertoast: ^8.2.4
+  uuid: ^4.3.3
+  image_picker: ^1.0.7
+  flutter_colorpicker: ^1.1.0
+  multi_select_flutter: ^4.1.3
+  provider: ^6.1.2 
+  flutter_localizations: 
+    sdk: flutter
+  intl: ^0.20.2 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# Esta é a seção 'flutter:' CORRIGIDA E UNIFICADA.
+flutter:
+  # Esta linha habilita o 'flutter gen-l10n'
+  generate: true 
+
+  # Esta linha provavelmente já existia
+  uses-material-design: true
+
+  # Seus assets (mantidos como estavam)
+  assets:
+    - assets/dice-2/
+    - assets/icons/
+    - assets/icons/2.0x/
+    - assets/icons/3.0x/
+    - assets/launcher_icon/
